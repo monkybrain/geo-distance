@@ -1,5 +1,5 @@
 CC=g++
-CFLAGS=-O1 -Wall -Werror
+CFLAGS=-std=c++11 -O1 -Wall -Werror
 TOP=..
 TARGET=$(TOP)/bin/geo_distance
 LIBS=
