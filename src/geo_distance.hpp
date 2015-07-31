@@ -4,7 +4,11 @@
 #include <cmath>
 
 #ifndef M_PI
-#define M_PI    3.1415926535897932384626433832795
+#define M_PI	3.14159265358979323846
+#endif
+
+#ifndef M_PIl
+#define M_PIl   3.141592653589793238462643383279502884L
 #endif
 
 static constexpr double earth_radius_km = 6371.0;
