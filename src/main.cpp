@@ -5,10 +5,12 @@ using namespace std;
 
 int main()
 {
-    double lat1 = 47.6565;
-    double lng1 = -122.3191;
+    // White House
+    double lat1 = 38.8977;
+    double lng1 = -77.0366;
+    // Purdue University
     double lat2 = 40.4240;
-    double lng2 = 86.9290;
+    double lng2 = -86.9290;
 
     double distance1 = haversine_distance(lat1, lng1, lat2, lng2);
     double distance2 = vincenty_distance(lat1, lng1, lat2, lng2);
