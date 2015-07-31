@@ -4,7 +4,7 @@
  * https://en.wikipedia.org/wiki/Great-circle_distance
  */
 
-#include "geo_distance.h"
+#include "geo_distance.hpp"
 
 using namespace std;
 
